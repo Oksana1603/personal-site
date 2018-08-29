@@ -1,0 +1,28 @@
+
+header {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+    color: rgb(137, 211, 88);
+}
+/*.menu{
+    display:inline;
+    list-style-type: none;
+    padding: 20%;
+    background-color: rgb(230, 189, 66);
+   
+}
+.hidden:link{
+    float:left;
+    display:none;
+}
+.hidden:hover{
+    display:block;
+}
+.hidden:active{
+    display:block;
+    background-color: red;
+}
+.dropmenu{
+    display: inline;
+    
+}*/
