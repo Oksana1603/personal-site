@@ -1,28 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+:root{
+    font-family: "Gloria Hallelujah, cursive";
+}
 
-header {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: large;
-    color: rgb(137, 211, 88);
-}
-/*.menu{
-    display:inline;
-    list-style-type: none;
-    padding: 20%;
-    background-color: rgb(230, 189, 66);
-   
-}
-.hidden:link{
-    float:left;
-    display:none;
-}
-.hidden:hover{
-    display:block;
-}
-.hidden:active{
-    display:block;
-    background-color: red;
-}
-.dropmenu{
-    display: inline;
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+    background-color:rgb(219, 255, 209);
     
-}*/
+}
+#ontop{
+    
+    position: relative;
+    display: flex;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.3;
+    height: 500px;
+}   
+header{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 500px;
+    color: rgb(66, 140, 7);
+    position: absolute; 
+    top:0px;
+    background-image: url("zagorodniuk.png");
+}
+header h1{
+    font-size: 4rem;
+    display: flex;
+    justify-content:center;
+    width:100%;
+}
+
+nav{
+    padding:20;
+    justify-content: space-around;
+    background-color: rgba(219, 255, 209,0.3);
+    position: relative;
+    
+}
+header ul,header li{
+display: flex;
+list-style-type: none;    
+}
+header li {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    border-color: green;
+    font-size: 2em;
+}
+main{
+   display: flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+   padding: 5%;
+}
+
+main .box  {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content:center;
+    padding:5%;   
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:2em;
+       
+}
+.pic {
+    width: 30vw;
+}
+main li{
+    list-style-type: circle;
+}
+#comments {
+    display: flex;
+    flex-direction: row;
+    padding:5%; 
+}
+.comments {
+    
+    border:solid green 3px;
+    font-size: 1em;
+    font-family: cursive;
+    margin:5%; 
+}
+footer {
+    padding:5%; 
+    display: flex;
+    position: absolute;
+    }
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding:5%; 
+}
+
+img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 620px) { 
+    #ontop{
+      height: 220px;
+      
+    }
+    
+    header{
+    flex-wrap:wrap;
+    height: 220px;
+    position: absolute;
+    top:0px;
+    }
+ header h1 {
+    font-size: 2em; 
+    padding: 2px;
+  }
+  .menu{
+      padding: 2px;
+  }
+    header ul, header li {
+    
+    flex-direction:column;
+    justify-content:space-around;
+    align-content:flex-start;
+    list-style-type: none;
+    text-decoration: none;
+    border-color: green;
+    font-size: 1.2em;
+    flex-wrap:wrap;
+    padding: 2px;
+    margin: 0;
+    }
+main{
+    flex-direction:column;
+    
+}
+    div.box{
+        flex-direction:column-reverse;
+        font-size: 0.8em;
+            
+    }
+    
+img {width: 100%;}
+#comments{
+    flex-direction: column;
+    
+}
+}
