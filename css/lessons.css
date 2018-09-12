@@ -1,10 +1,26 @@
 body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
     background-color: rgb(231, 242, 152);
+    font-size: 16px;
 }
 
 
 header {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: large;
+    font-size: 40px;
     color: rgb(137, 211, 88);
+    display: flex;
+    justify-content:center;
+}
+main{
+    display: grid;
+    grid-columns: auto auto auto;
+}
+form{
+    
+    margin-bottom: dotted;
+    padding: 20px;
+    justify-content: center;
 }

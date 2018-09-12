@@ -31,7 +31,7 @@ header {
     color: rgb(66, 140, 7);
     position: absolute;
     top: 0px;
-    
+
 }
 
 header h1 {
@@ -45,17 +45,18 @@ nav {
     display: flex;
     justify-content: center;
     position: relative;
-    width:100%;
+    width: 100%;
     font-size: 2rem;
-    
+
 }
+
 .dropdown {
-    flex-grow:1;
+    flex-grow: 1;
     position: relative;
     display: inline-block;
-   /* background-color: rgb(219, 255, 209);*/
+    /* background-color: rgb(219, 255, 209);*/
     padding: 15px;
-   
+
 }
 
 .dropmenu {
@@ -72,12 +73,12 @@ nav {
 }
 
 .dropdown2 {
-    flex-grow:1;
+    flex-grow: 1;
     position: relative;
     display: inline-block;
-    
+
     padding: 15px;
-    
+
 }
 
 .dropmenu2 {
@@ -94,12 +95,12 @@ nav {
 }
 
 .dropdown3 {
-    flex-grow:1;
+    flex-grow: 1;
     position: relative;
     display: inline-block;
-   
+
     padding: 15px;
-    
+
 }
 
 .dropmenu3 {
@@ -152,15 +153,18 @@ main .box {
     font-size: 1.5em;
 
 }
- .greetings {
-flex-grow:1;
-max-width: 500px;
-padding:0 0 0 25px;
+
+.greetings {
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 0 0 0 25px;
 }
+
 .pics {
-flex-grow:1;
-padding: 0 5px 0 0;
+    flex-grow: 1;
+    padding: 0 5px 0 0;
 }
+
 main li {
     list-style-type: circle;
 }
@@ -202,22 +206,26 @@ footer {
 
     header {
         flex-wrap: wrap;
-/*max-height: 220px;*/
+        max-height: 220px;
         position: absolute;
         top: 0px;
-        font-size: 2em;
+        font-size:small;
     }
     h1 {
-        
+
         padding: 1px;
         margin: 0px;
     }
-    
-nav{
-    font-size: 1rem;
-    display:flex;
-    flex-direction:column;
-};
+
+    nav {
+        font-size: 15px;
+        display: flex;
+        
+        padding: 0;
+    }
+    dropdown, dropdown2,dropdown3 {
+        width:100%;
+    }
     main {
         flex-direction: column;
 
@@ -235,4 +243,5 @@ nav{
         flex-direction: column;
 
     }
+
 }
