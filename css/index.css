@@ -7,8 +7,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5px;
-    background-color: rgb(219, 255, 209);
-
+    
+}
+.link-button{
+    text-decoration:none;
+    color:white;
+}
+.link-button:hover{
+    text-decoration: blink;
+    
+} 
+.carousel-item img{
+    opacity:0.5;
+}
+   /* background-color: rgb(219, 255, 209);
 }
 
 #ontop {
@@ -23,20 +35,21 @@ body {
 }
 
 header {
-    display: flex;
+   /* display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
     font-family: 'Gloria Hallelujah', cursive;
-    height: 500px;
+    /*height: 500px;
     color: rgb(66, 140, 7);
     position: absolute;
-    top: 0px;
+    top: 0px;*/
+
 
 }
 
 header h1 {
-    font-size: 4rem;
-    display: flex;
+    font-size: 4rem;}
+    /*display: flex;
     justify-content: center;
     width: 100%;
 }
@@ -55,7 +68,7 @@ nav {
     position: relative;
     display: inline-block;
     /* background-color: rgb(219, 255, 209);*/
-    padding: 15px;
+  /*  padding: 15px;
 
 }
 
@@ -114,7 +127,7 @@ nav {
 .dropdown3:hover .dropmenu3 {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 /*header ul,
 header li {
@@ -130,7 +143,7 @@ header li {
     border-color: green;
     font-size: 2em;
 }*/
-
+/*
 main {
     display: flex;
     flex-direction: row;
@@ -146,7 +159,7 @@ img {
 main .box {
     display: flex;
     /*flex-direction: row;*/
-    justify-content: space-around;
+/*justify-content: space-around;
     align-content: center;
     padding: 2%;
     font-family: 'Gloria Hallelujah', cursive;
@@ -245,3 +258,4 @@ footer {
     }
 
 }
+*/

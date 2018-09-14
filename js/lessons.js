@@ -5,9 +5,16 @@ btn.addEventListener('click',() =>{
   const firstPar = document.querySelector('#firstPar');
     event.preventDefault(); 
     console.log(answer); 
+    let img = document.createElement("img");
+ 
+    img.src = "pictures/goodwork.png";
+  console.log(img);
+ 
+
+    
+    
     if (answer=="correct") {
-    //  const p = firstPar.appendChild('para'); 
-       firstPar.appendChild(document.createTextNode("Great job!"));
+         // firstPar.appendChild(document.createTextNode("Great job!"));
 
     }
 });
@@ -21,6 +28,7 @@ btn2.addEventListener('click',() =>{
   const answer = testSimple2.t2.value;  
     event.preventDefault(); 
     console.log(answer);
+    
 });
 
 let testSimple3 = document.querySelector('.testSimple3');
