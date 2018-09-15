@@ -1,0 +1,6 @@
+header:{
+    display:grid;
+    font-family: 'Arvo', serif;
+    justify-items:center; 
+    background-color: pink;
+}
