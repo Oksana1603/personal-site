@@ -277,7 +277,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="RandomTest">
-                                Pick a best synonym to 'humid'
+                                Pick the best synonym to 'humid'
                             </h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                   <span aria-hidden="true">&times;</span>
@@ -285,22 +285,23 @@
                         </div>
                         <div class="modal-body">
                             <form class="was-validated">
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" class="custom-control-input" id="wrong" value = "wrong "name="radio-stacked" required>
-                                    <label class="custom-control-label" for="wrong">dry</label>
-                                </div>
-
-                                <div class="custom-control custom-radio mb-3">
-                                    <input type="radio" class="custom-control-input" id="correct" value ="correct" name="radio-stacked" required>
-                                    <label class="custom-control-label" for="correct">wet</label>
-                                </div>
+                                  <div class="form-group">
+                                        <select id="answer" class="custom-select" required>
+                                          <option value="">Open this select menu</option>
+                                          <option value="wet">Wet</option>
+                                          <option value="dry">Dry</option>
+                                          <option value="humble">Humble</option>
+                                        </select>
+                                        <div class="invalid-feedback">Press "check" if you are sure</div>
+                                      </div>
+                                <button type="button" class="btn btn-primary" id="testBtn">Check</button>
                             </form>
                         </div>
 
                     </div>
                     <div class="modal-footer">
                  
-                        <button type="button" class="btn btn-primary">Check</button>
+                        
                     </div>
                 </div>
             </div>
