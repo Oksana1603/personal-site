@@ -52,7 +52,7 @@ main{
 }
 article{
     display:grid;
-
+    align-items:center;
 }
 figure{
     align-self:center;
@@ -73,7 +73,10 @@ fieldset{
     display:grid;
         grid-template-row: 20px auto;
        color:#CA749E;
-    
+} 
+img {
+    max-width: 100%;
+}  
 }
 .commentaryTitle {
     justify-self:center;
@@ -91,3 +94,20 @@ form {
 person.value{
     font-weight: bold;
 }
+
+ @media (max-width: 650px){
+ 
+main{
+    display: grid;
+    grid-template-areas:
+    "article" 
+    "aside";
+    grid-template-columns:auto;
+   
+    grid-gap:10px; 
+}
+pre{
+    font-size:70%;
+      width:100%;
+}
+ }
