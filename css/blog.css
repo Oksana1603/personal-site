@@ -1,6 +1,93 @@
-header:{
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+:root {
+   font-family: 'Arvo', serif;
+}
+ body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 5px;
+    background-color:#FFFAAD;
+ }
+
+.nav-pills .nav-link{
+ color: hsl(324, 24%, 44%);
+ background-color: rgb(255, 237, 242);
+}
+.nav-pills .nav-link:visited{
+ color: hsl(324, 24%, 44%);
+ background-color: rgb(255, 237, 242);
+}
+.nav-pills .nav-link:hover{
+    background-color: #B9203F;
+    color:rgb(255, 237, 242);
+}
+
+.nav-pills .nav-link:active{
+    background-color: #B9203F;
+    color:rgb(255, 237, 242);
+}
+#active{
+     background-color: #B9203F;
+    color:rgb(255, 237, 242);
+}
+.dropdown-menu,.dropdown-item:{
+    background-color: #ffedd3;
+    color:rgb(255, 237, 242);
+}
+
+
+header {
     display:grid;
     font-family: 'Arvo', serif;
     justify-items:center; 
-    background-color: pink;
+    background-color: #FEC8D8;
+    margin:0 0 10px 0;
+}
+main{
+    display: grid;
+    grid-template-areas:
+    "aside article ";
+    grid-template-columns: 22% auto;
+    grid-gap:10px; 
+}
+article{
+    display:grid;
+
+}
+figure{
+    align-self:center;
+    justify-self:center; 
+}
+h2{
+     font-family: 'Arvo', serif;
+}
+a.otherArticle{
+    text-decoration: none;
+    color:#CA749E;
+}
+a.otherArticle:hover {
+    color:hsl(324, 24%, 44%);
+    text-shadow:  2px 2px rgb(254, 200, 216);
+}
+fieldset{
+    display:grid;
+        grid-template-row: 20px auto;
+       color:#CA749E;
+    
+}
+.commentaryTitle {
+    justify-self:center;
+}
+form {
+    display:grid;
+    grid-rows:auto auto auto;
+    grid-columns:auto auto; 
+    grid-template area:
+    ".nickname .mail"
+    ".commentary .commentary"
+    ".final .final";
+    justify-items:center;
+}
+person.value{
+    font-weight: bold;
 }

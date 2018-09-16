@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Befriend English</title>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/variables.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+
+<body>
+    <nav>
+        <ul class="nav nav-pills">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#about">About me</a>
+                    <a class="dropdown-item" href="#comments">Comments</a>
+                    <a class="dropdown-item" href="#contacts">Contacts</a>
+                    <div class="dropdown-divider"></div>
+                    <!----<a class="dropdown-item" href="#">Separated link</a --->
+                </div>
+            </li>
+            <li class="nav-item">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Classroom</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Take a test!</a>
+                        <a class="dropdown-item" href="lessons/html">Lessons</a>
+                        <a class="dropdown-item" href="#">Additional Resources</a>
+                        <div class="dropdown-divider"></div>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="blog.html">Recent</a>
+                        <a class="dropdown-item" href="#comments">On Literature</a>
+                        <a class="dropdown-item" href="#contacts">Translation</a>
+                        <div class="dropdown-divider"></div>
+
+                    </div>
+                </li>
+        </ul>
+    </nav>
+    <div id="ontop"> </div>
+    <header class="flex-container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Stop!</h1>
+                <p class="lead">Enough excuses.Start learning
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SurpriseTestDiv">Now!</button>
+                </p>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <h2>My education:</h2><br>
+            <div class="accordion" id="accordionEducation">
+                <div class="card">
+                    <div class="card-header" id="headingBac">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBac" aria-expanded="true" aria-controls="collapseBac">
+          Bachelor's 
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseBac" class="collapse show" aria-labelledby="headingBac" data-parent="#accordionEducation">
+                        <div class="card-body">
+                            Since September, 2007 till June, 2011 I studied at <a href="http://www.lnu.edu.ua/en/" target="_blank">Ivan Franko national University</a> in Lviv, Ukraine. I graduated with an Honor Degree which means I might have tried a
+                            little too hard. It was interesting though. I did study English, but it was not my major. It was a fun hobby. But in this period of my life I learned things like <span title="1. A secret and illegal plan. 2.The main events of a play, novel, film, or similar work, devised and presented by the writer as an interrelated sequence"><mark>plot</mark></span>,
+                            <span title="A metaphor is a figure of speech that describes an object or action in a way that isn’t literally true, but helps explain an idea or make a comparison."><mark>metaphore</mark></span>, or
+                            <span title="Too complicated, with a great deal of administrative detail."><mark>byzantine</mark></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingMas">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseMas" aria-expanded="false" aria-controls="collapseMas">
+          Master's
+        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseMas" class="collapse" aria-labelledby="headingMas" data-parent="#accordionEducation">
+                        <div class="card-body">
+                            Master’s degrees in Ukrainian philology: 09.2011- 06.2015 – Ivan Franko national University in Lviv, Ukraine
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingPhd">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsePhd" aria-expanded="false" aria-controls="collapsePhd">
+          PhD
+        </button>
+                        </h5>
+                    </div>
+                    <div id="collapsePhd" class="collapse" aria-labelledby="headingPhd" data-parent="#accordionEducation">
+                        <div class="card-body">
+                            PhD study in Literary theory: worked on thesis ‘Silence as a manifestation of an ontological state of human being. (Ukrainian poetry of the second half of the 20th century). Successfully defended the thesis on 29th of May;
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h2>My work experience</h2>
+            <div class="accordion" id="accordionJob">
+                <div class="card">
+                    <div class="card-header" id="headingTut">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTut" aria-expanded="true" aria-controls="collapseTut">
+                   Tutoring 
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTut" class="collapse" aria-labelledby="headingTut" data-parent="#accordionJob">
+                        <div class="card-body">
+                            English tutor (2010 – present): Private lessons of English and Ukrainian
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingTA">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTA" aria-expanded="false" aria-controls="collapseTA">
+         Teaching Assistant
+        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTA" class="collapse" aria-labelledby="headingTA" data-parent="#accordionJob">
+                        <div class="card-body">
+                            Teaching Assistant at Lviv University (09.2014-06.2015): Led seminar groups of around twenty students following lectures on Foreign Literature and Literary Theory
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingAss">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseAss" aria-expanded="false" aria-controls="collapseAss">
+          Assistant and Event Planner 
+        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseAss" class="collapse" aria-labelledby="headingAss" data-parent="#accordionJob">
+                        <div class="card-body">
+                            Assistant of the Head of Academic Pastoral Centre of Ukrainian Greek Catholic church in Kyiv (09. 2015-07.2016): Responsibilities included organizing English speaking clubs, recreational and educational events for young people, and assisting high school
+                            and university students in visiting orphanage.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingTE">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTE" aria-expanded="false" aria-controls="collapseTE">
+       Teacher of English
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTE" class="collapse" aria-labelledby="headingTE" data-parent="#accordionJob">
+                        <div class="card-body">
+                            Teacher of English at language school ‘Azbuka Svitu’(10. 2016- 01.2017): Responsibilities included planning, preparing, and teaching personal and group lessons.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingTU">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTU" aria-expanded="false" aria-controls="collapseTU">
+      Teacher of Ukrainian (to native speaker)
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTU" class="collapse" aria-labelledby="headingTU" data-parent="#accordionJob">
+                        <div class="card-body">
+                            Teacher of Ukrainian at Lviv Polytechnic National University (01.2017-07. 2017): Responsibilities included teaching Ukrainian grammar, use of professional style of language, writing, and editing.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingTUF">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTUF" aria-expanded="false" aria-controls="collapseTUF">
+   Teaching Ukrainian as a Foreign Language 
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTUF" class="collapse" aria-labelledby="headingTUF" data-parent="#accordionJob">
+                        <div class="card-body">
+                            Teacher of Ukrainian as a foreign language at Lviv Polytechnic National University (10. 2017 – 06/2018): Teach basics of Ukrainian Language to foreign students using English as a language of instruction.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#RandomTest1">Test yourself!</button>
+    <div class="product-list row">
+        <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h4 class="card-title">Success card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </article> 
+         <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h4 class="card-title">Success card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </article> 
+        <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h4 class="card-title">Success card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </article> 
+        <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h4 class="card-title">Success card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </article> 
+        </div>
+        <footer>
+        <div id="contacts">
+                    <p><a href="https://www.facebook.com/oksana.zahorodniuk" target="_blank"><i class="fab fa-facebook-square"></i></a>Write to me on facebook!</p><br>
+                    <p>
+                        Or contact me via an email: oksana16zahorodniuk@gmail.com;
+                    </p>
+            </div>
+
+            This site is brought to you for fun and learning!</footer>
+
+            <!-- Modal in the end -->
+            <div class="modal fade" id="RandomTest1" tabindex="-1" role="dialog" aria-labelledby="RandomTest" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="RandomTest">
+                                Pick a best synonym to 'humid'
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="was-validated">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="wrong" value = "wrong "name="radio-stacked" required>
+                                    <label class="custom-control-label" for="wrong">dry</label>
+                                </div>
+
+                                <div class="custom-control custom-radio mb-3">
+                                    <input type="radio" class="custom-control-input" id="correct" value ="correct" name="radio-stacked" required>
+                                    <label class="custom-control-label" for="correct">wet</label>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                 
+                        <button type="button" class="btn btn-primary">Check</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal button in the header -->
+            <div class="modal fade" id="SurpriseTestDiv" tabindex="-1" role="dialog" aria-labelledby="SurpriseTest" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="SurpriseTest">Feeling determined?</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                        </div>
+                        <div class="modal-body">
+                            Would you like to sign up for a test lesson?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Maybe later</button>
+                            <button type="button" class="btn btn-primary"><a class = "link-button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScU4HOJvbroIkJcjFhk0lAk__4zbu8G7HnrtB8M02LVfLM7mA/viewform?usp=pp_url&entry.1136717375=%D0%92%D0%B0%D1%80%D1%96%D0%B0%D0%BD%D1%82+1">Yes!</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="js/index.js"></script>    
+</body>
+
+</html>
