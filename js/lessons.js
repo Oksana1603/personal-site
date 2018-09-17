@@ -14,9 +14,11 @@ btn.addEventListener('click',() =>{
     
     
     if (answer=="correct") {
-         // firstPar.appendChild(document.createTextNode("Great job!"));
+         alert("Great job!");
 
     }
+    else {
+           alert("Try again... ")}
 });
 
 
@@ -28,7 +30,11 @@ btn2.addEventListener('click',() =>{
   const answer = testSimple2.t2.value;  
     event.preventDefault(); 
     console.log(answer);
-    
+     
+    if (answer=="correct") {
+         alert("Great job!");} else {
+           alert("Try again... ")}
+         
 });
 
 let testSimple3 = document.querySelector('.testSimple3');
@@ -37,6 +43,10 @@ btn3.addEventListener('click',() =>{
   const answer = testSimple3.t3.value;  
     event.preventDefault(); 
     console.log(answer);
+     
+    if (answer=="correct") {
+         alert("Great job!");}else {
+           alert ("Try again... ")}
 });
 
 let testSimple4 = document.querySelector('.testSimple4');
@@ -45,4 +55,8 @@ btn4.addEventListener('click',() =>{
   const answer = testSimple4.t4.value;  
     event.preventDefault(); 
     console.log(answer);
+     
+    if (answer=="correct") {
+         alert("Great job!");}else {
+           alert ("Try again... ")}
 });

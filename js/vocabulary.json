@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "word":"humid",
+        "explanation": " we use it to describe an atmosphere or climate that is very damp, and usually very hot.",
+        "example":"New York is very hot and humid in the summer.",
+        "part of speech": "adjective",
+        "picture":"humid.jpg",
+        "opposite": "fresh, arid"
+    },
+     {
+        "id": "2",
+        "word":"plot",
+        "explanation": "1.a plan made in secret by a group of people to do something illegal or harmfu. 2.the main events of a play, novel, film, or similar work, devised and presented by the writer as an interrelated sequence. 3. secretly make plans to carry out (an illegal or harmful action).",
+        "example":"The plot of the novel consists almost entirely of a man and woman falling in love, as they are plotting to overthrow the governtment",
+        "part of speech":"noun, verb",
+        "picture":"plot.png",
+        "opposite":""
+    },
+     {
+        "id":"3",
+        "word":"deception",
+        "explanation":"the act of hiding the truth, especially to get an advantage",
+        "example":"He was arrested on charges of attempted deception when he tried to use a stolen credit card.",
+         "part of speech":"noun",
+        "picture":"deception.jpg",
+        "opposite":""
+    }
+     
+    ]
