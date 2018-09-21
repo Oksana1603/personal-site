@@ -1,5 +1,5 @@
-body{
-    max-width: 900px;
+body {
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0 5px;
     background-color: rgb(231, 242, 152);
@@ -9,53 +9,103 @@ body{
 
 header {
     font-family: 'Gloria Hallelujah', cursive;
-     color: rgb(137, 211, 88);
+    color: rgb(137, 211, 88);
     display: grid;
-    justify-content:center;
+    justify-content: center;
     grid-rows: 1fr 2fr;
     background-color: #FFCA00;
-    
+
+
 }
-h1{
-     font-family: 'Gloria Hallelujah', cursive;
-}
-.nav-pills .nav-link{
- color: #005100;
- background-color: hsl(65, 100%, 50%);
-}
-.nav-pills .nav-link:visited{
- color: #005100;
- background-color: hsl(65, 100%, 50%);
-}
-.nav-pills .nav-link:hover{
-    background-color: #005100;
-    color:hsl(58, 100%, 53%);
+header:hover::before{
+     width: 100%;
 }
 
-.nav-pills .nav-link:active{
+header:before{
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 10s;
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+   height: 20%;
+    width: 0;
+    background: #ff00f2;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nav-pills .nav-link {
+    color: #005100;
+    background-color: hsl(65, 100%, 50%);
+}
+
+.nav-pills .nav-link:visited {
+    color: #005100;
+    background-color: hsl(65, 100%, 50%);
+}
+
+.nav-pills .nav-link:hover {
     background-color: #005100;
-    color:hsl(58, 100%, 53%);
+    color: hsl(58, 100%, 53%);
 }
-#active{
-     background-color:#005100;
-    color:hsl(58, 100%, 53%);
+
+.nav-pills .nav-link:active {
+    background-color: #005100;
+    color: hsl(58, 100%, 53%);
 }
-.dropdown-menu,.dropdown-item:{
+
+#active {
+    background-color: #005100;
+    color: hsl(58, 100%, 53%);
+}
+
+.dropdown-menu,
+.dropdown-item: {
     background-color: #ffedd3;
-    color:rgb(255, 237, 242);
+    color: rgb(255, 237, 242);
 }
 
-main{
-display: grid;
-   grid-test-area:
-   "aside article;"
-   grid-columns:20% auto; 
-   grid-gaps:20px;
-    
+main {
+    display: grid;
+    grid-test-area: "aside article;" grid-columns:20% auto;
+    grid-gaps: 20px;
+
 }
-form{
-    display: inline; 
-}
-a{
+
+form {
     display: inline;
+}
+
+a {
+    display: inline;
+}
+
+.progress {
+    background: #333;
+    /* Фон */
+    border: 2px solid #333;
+    /* Рамка */
+    height: 20px;
+    /* Высота */
+    position: relative;
+    /* Относительное позиционирование */
+}
+
+.progress:hover::before {
+    width: 100%;
+}
+
+.progress::before {
+    transition-timing-function: linear;
+    transition-duration: 5s;
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+    height: 100%;
+    width: 0;
+    background: #FFA600;
+    /* Фон */
 }

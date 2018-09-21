@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+body{
+     
+    margin: 0 auto;
+    padding: 0 5px;
+    background-color:#F4E7E7; 
+    color:#33102B;    
+}
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 3em 0 0 0;
+   
+}
+header {
+    padding-top: 75px;
+
+    
+    
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 2%;
+}
+.navBar {
+  background-color: #CBDADB;
+  position: fixed;
+  min-width: 100%;
+}
+
+nav .wrapper {
+  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  
+ }
+ 
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+ }
+ nav a{
+     color: #70323E;
+    font-size: 2em;
+    text-decoration: none;
+     -moz-webkit-transition:ease; 
+     transition: all .5s ease;
+ }
+ a:hover{
+     color:#F9B294;
+     text-shadow:  2px 2px rgb(254, 200, 216);
+ }
+ #menu-toggle {display: none;}
+
+.label-toggle {display: none;}
+@media screen and (max-width: 768px) {
+   nav ul a {
+       color:#33102B;
+   }
+    ul {
+      background-color:#F4E7E7;
+      display: block;
+      height: 0;
+      list-style-type: none;
+      opacity: 0.7;
+      text-align: center;
+      transition: all 0.5s ease-in-out;
+      width: 100%;
+      visibility: hidden;
+      margin-top: 3em;
+    }
+    .navBar {
+        height:3em;
+        
+    }
+    
+nav ul,li {
+      border-bottom: 2px solid navy;
+      display: block;
+      font-size: 1.3em;
+      padding: 1.5em 0;
+    }
+  
+    #menu-toggle:checked ~ ul {
+      opacity: 0.86;
+      height: 30%;
+      visibility: visible;
+      width: 100%;
+    }
+    
+    .label-toggle {
+    background: linear-gradient(to bottom, #F4E7E7 0%, #F4E7E7 20%, transparent 20%, transparent 40%, #F4E7E7 40%, #F4E7E7 60%, transparent 60%, transparent 80%, #F4E7E7 80%, #F4E7E7 100%); 
+      /*Gradient Hamburger*/
+    cursor: pointer;
+    display: block;
+    position: fixed; 
+    right:0;
+    top:1.7em;
+    height: 2em;
+    width: 2em;
+    margin: 0 2%;
+    }
+  
+    .wrapper {display: block;}
+  }
